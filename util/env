@@ -1,0 +1,3 @@
+MONGODB_PASSWORD = IFPc9VovBg9c1KcV
+
+MONGODB_URL = mongodb+srv://tunade:<IFPc9VovBg9c1KcV>@task.p8okuej.mongodb.net/?retryWrites=true&w=majority

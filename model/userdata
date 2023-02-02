@@ -1,0 +1,29 @@
+import mongoose from "mongoose"
+
+const dbschema = new mongoose.Schema({
+    firstname: [
+        type: String,
+        require: true, ["Firstname mandatory"];
+    ],
+
+    lastname: [
+        type: String,
+        require: true, ["lastname mandatory"];
+    ],
+
+    email: [
+        type: String,
+        require: true, ["email mandatory"];
+    ],
+
+    password: [
+        type: String,
+        require: true, ["password mandatory"];
+    ], {
+        timestamp: true,
+        to JSON:{virtuals:true}
+
+})
+
+const user = mongoose.model("user", dbschema) 
+export default user
