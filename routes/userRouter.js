@@ -10,7 +10,7 @@ taskRouters.post("register/", registerController);
 taskRouters.post("/login/",loginController);
 
 //create task
-taskRouters.post("/createtask/",createUser);
+taskRouters.post("/createtask/",createTask);
 
 //get all task
 taskRouters.get("/getalltask/",getAlltask);

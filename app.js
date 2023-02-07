@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import {dbConnect} from "./config/dbConnect.js";
-import taskRouters from ./routes/userRouter.js;
+import taskRouters from "./routes/userRouter.js";
 dotenv.config();
 dbConnect()
 

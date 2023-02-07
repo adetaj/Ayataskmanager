@@ -16,6 +16,11 @@ const dbschema = new mongoose.Schema({
         require: true, ["email mandatory"];
     ],
 
+    taskID: [
+        type:String,
+        require: true, [Task ID required]
+    ],
+
     password: [
         type: String,
         require: true, ["password mandatory"];
